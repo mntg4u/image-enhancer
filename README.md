@@ -29,3 +29,31 @@ Ensure you have Python 3.x installed on your machine. You can download it from [
 ```bash
 git clone https://github.com/mntg4u/image-enhancer.git
 cd image-enhancer
+
+Install Dependencies
+Create a virtual environment and install the required packages:
+
+bash
+Copy code
+# Create a virtual environment
+python -m venv venv
+# Activate the virtual environment
+# On Windows
+venv\Scripts\activate
+# On macOS/Linux
+source venv/bin/activate
+
+# Install the required packages
+pip install -r requirements.txt
+Usage
+Running the Application
+Start the Flask server:
+
+bash
+Copy code
+python app.py
+Open your browser and navigate to http://127.0.0.1:5000/.
+
+Upload an image using the provided form.
+
+Download the enhanced image once the processing is complete
