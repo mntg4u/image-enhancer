@@ -44,17 +44,5 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # Install the required packages
-pip install -r requirements.txt```
+pip install -r requirements.txt
 
-<h1>Usage </h1>
-<h3>Running the Application</h3>
-Start the Flask server:
-
-bash
-Copy code
-python app.py
-Open your browser and navigate to http://127.0.0.1:5000/.
-
-Upload an image using the provided form.
-
-Download the enhanced image once the processing is complete
