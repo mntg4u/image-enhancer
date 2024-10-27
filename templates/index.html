@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Enhancer</title>
+</head>
+<body>
+    <h1>Image Enhancer</h1>
+    <form action="/enhance" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/jpeg, image/png" required>
+        <button type="submit">Enhance Image</button>
+    </form>
+    <div id="message"></div>
+</body>
+</html>
