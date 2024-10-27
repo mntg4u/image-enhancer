@@ -44,7 +44,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # Install the required packages
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 <h1>Usage </h1>
 <h3>Running the Application</h3>
