@@ -45,8 +45,9 @@ source venv/bin/activate
 
 # Install the required packages
 pip install -r requirements.txt
-Usage
-Running the Application
+
+<h1>Usage </h1>
+<h3>Running the Application</h3>
 Start the Flask server:
 
 bash
