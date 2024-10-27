@@ -29,7 +29,6 @@ def enhance():
     path = os.path.join(app.config['UPLOAD_FOLDER'], f"{user_id}.jpeg")
     file.save(path)
 
-    # Read the image and encode it to base64
     with open(path, 'rb') as f:
         photo = f.read()
 
@@ -55,3 +54,4 @@ def enhance():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
